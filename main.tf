@@ -1,11 +1,11 @@
 provider "aws" {
-    access_key = "${var.aws_access_key}"
-    secret_key = "${var.aws_secret_key}"
-    region = "${var.region}"
+    access_key = "${var.AKIAQPEKF2BZAWQMHXIZ}"
+    secret_key = "${var.pwDKlRjIIy7eAoFCvGo6CMTDwsL7xydLu3Y2HeOc}"
+    region = "${var.ap-south-1}"
 }
 
 module "s3" {
-    source = "<path-to-S3-folder>"
+    source = "</usr/bin/>"
     #bucket name should be unique
-    bucket_name = "<Bucket-name>"       
+    bucket_name = "<pooja_bucket>"       
 }
